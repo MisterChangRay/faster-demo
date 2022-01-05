@@ -1,0 +1,17 @@
+
+
+
+com:
+  github:
+    faster:
+      files:
+        oss:
+          accessKeyId: 123123
+          accessKeySecret: 33333
+          roleArn: 4444444
+          endpoint: sts.aliyuncs.com
+          regionId: cn-hangzhou
+server:
+  servlet:
+    context-path: /fileupload
+  port: 7501

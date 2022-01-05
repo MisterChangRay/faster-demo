@@ -21,6 +21,11 @@
         <module>faster-financial</module>
         <module>faster-user</module>
         <module>faster-domain</module>
+
+        <module>faster-files</module>
+        <module>faster-messages</module>
+        <module>faster-pay</module>
+        <module>faster-paimai</module>
     </modules>
 
     <dependencies>
