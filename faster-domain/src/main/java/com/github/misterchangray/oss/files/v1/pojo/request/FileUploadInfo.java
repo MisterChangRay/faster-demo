@@ -1,4 +1,4 @@
-package com.github.misterchangray.files.v001.pojo.request;
+package com.github.misterchangray.oss.files.v1.pojo.request;
 
 /**
  * @description:

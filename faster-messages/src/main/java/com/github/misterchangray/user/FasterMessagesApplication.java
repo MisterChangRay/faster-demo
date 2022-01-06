@@ -1,13 +1,13 @@
-package com.github.misterchangray.files;
+package com.github.misterchangray.user;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FasterFilesApplication {
+public class FasterMessagesApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(FasterFilesApplication.class, args);
+        SpringApplication.run(FasterMessagesApplication.class, args);
     }
 
 }
