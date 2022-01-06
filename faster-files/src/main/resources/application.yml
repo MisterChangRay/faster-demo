@@ -2,15 +2,17 @@
 
 
 com:
-  github:
-    faster:
-      files:
-        oss:
-          accessKeyId: 123123
-          accessKeySecret: 33333
-          roleArn: 4444444
-          endpoint: sts.aliyuncs.com
-          regionId: cn-hangzhou
+  oss:
+    aliyun:
+      config:
+        accessKeyId: 123123
+        accessKeySecret: 33333
+        roleArn: 4444444
+        endpoint: ray.oss.aliyuncs.com
+        regionId: cn-hangzhou
+        bucketName: ttt
+        defaultDir: /test/tmp
+
 server:
   servlet:
     context-path: /fileupload
